@@ -1,0 +1,222 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jogja Snack - UMKM Yogyakarta</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #fff3e0;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            color: #8b0000;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #8b0000;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .container h2 {
+            text-align: center;
+            color: #8b0000;
+            margin-bottom: 25px;
+        }
+
+        .produk {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #8b0000;
+            margin: 15px 0 10px;
+        }
+
+        .harga {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .tentang {
+            background-color: white;
+            text-align: center;
+            line-height: 1.7;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>JOGJA SNACK</h1>
+        <p>UMKM Makanan Khas Yogyakarta</p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- Beranda -->
+    <section class="hero" id="beranda">
+        <h2>Selamat Datang di Jogja Snack</h2>
+        <p>
+            Menyediakan makanan khas Jogja dengan rasa enak,
+            harga terjangkau, dan cocok untuk oleh-oleh.
+        </p>
+
+        <a href="#produk" class="button">Lihat Produk</a>
+    </section>
+
+    <!-- Produk -->
+    <section class="container" id="produk">
+        <h2>Produk Kami</h2>
+
+        <div class="produk">
+
+            <div class="card">
+                <div style="font-size:60px;">🥮</div>
+                <h3>Bakpia Cokelat</h3>
+                <p>Bakpia lembut dengan isian cokelat.</p>
+                <p class="harga">Rp25.000 / kotak</p>
+            </div>
+
+            <div class="card">
+                <div style="font-size:60px;">🥮</div>
+                <h3>Bakpia Keju</h3>
+                <p>Bakpia dengan isian keju yang lezat.</p>
+                <p class="harga">Rp27.000 / kotak</p>
+            </div>
+
+            <div class="card">
+                <div style="font-size:60px;">🍪</div>
+                <h3>Cookies Jogja</h3>
+                <p>Cookies renyah cocok untuk oleh-oleh.</p>
+                <p class="harga">Rp20.000 / toples</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tentang -->
+    <section class="container" id="tentang">
+        <h2>Tentang Kami</h2>
+
+        <div class="tentang">
+            <p>
+                Jogja Snack adalah UMKM yang bergerak di bidang
+                makanan dan oleh-oleh khas Yogyakarta.
+                Kami menyediakan produk berkualitas dengan
+                harga yang terjangkau.
+            </p>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="container" id="kontak">
+        <h2>Kontak Kami</h2>
+
+        <div class="tentang">
+            <p>📍 Yogyakarta</p>
+            <p>📱 WhatsApp: 08xxxxxxxxxx</p>
+            <p>📧 Email: jogjasnack@gmail.com</p>
+            <p>📷 Instagram: @jogjasnack</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Jogja Snack - UMKM Yogyakarta</p>
+    </footer>
+
+</body>
+</html>
+```
